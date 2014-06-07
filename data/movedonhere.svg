@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   viewBox="0 0 748 470"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   width="100%"
+   height="100%"
+   sodipodi:docname="movedonhere (copy).svg">
+  <defs
+     id="defs14" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1844"
+     inkscape:window-height="886"
+     id="namedview12"
+     showgrid="false"
+     inkscape:zoom="1.4202315"
+     inkscape:cx="232.93627"
+     inkscape:cy="235"
+     inkscape:window-x="0"
+     inkscape:window-y="26"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <title
+     id="title3606">Youĺl get moved on here</title>
+  <g
+     id="layer1"
+     transform="translate(-103.57 -308.51)">
+    <g
+       id="g3600"
+       stroke-linecap="round"
+       stroke-width="50"
+       stroke="#000">
+      <path
+         id="path2816"
+         transform="translate(0,4)"
+         d="m548.57 539.51c0 115.98-94.02 210-210 210s-210-94.02-210-210 94.02-210 210-210 210 94.02 210 210z"
+         stroke-linejoin="bevel"
+         fill="#fff"
+         style="fill:#000000;fill-opacity:0" />
+      <path
+         id="path3594"
+         d="m340 543.79h485.71"
+         fill="none" />
+      <path
+         id="path3596"
+         d="m825.71 543.79-140-157.14"
+         fill="none" />
+      <path
+         id="path3598"
+         d="m826.57 545.79-140 157.14"
+         fill="none" />
+    </g>
+  </g>
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>You'll get moved on here</dc:title>
+        <dc:date>2010-05-10T14:13:31</dc:date>
+        <dc:description>This symbol is part of a set originally created  by Emily Read. It was published in The Pavement magazine, a periodical for the homeless community in London. The symbols are an up to date version of a traditional form of communication used by the homeless. Emily has kindly given her permission for the symbols to shared on Openclipart. Original at  http://www.thepavement.org.uk/story.php?story=130</dc:description>
+        <dc:source>http://openclipart.org/detail/59599/you?l-get-moved-on-here-by-andy_gardner</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Andy_Gardner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>guide</rdf:li>
+            <rdf:li>homeless</rdf:li>
+            <rdf:li>information</rdf:li>
+            <rdf:li>shelter</rdf:li>
+            <rdf:li>symbol</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

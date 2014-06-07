@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg2" viewBox="0 0 748 470" version="1.1">
+  <title id="title3606">You&#x13A;l get moved on here</title>
+  <g id="layer1" transform="translate(-103.57 -308.51)">
+    <g id="g3600" stroke="#000" stroke-width="50" stroke-linecap="round">
+      <path id="path2816" stroke-linejoin="bevel" fill="#fff" transform="translate(0,4)" d="m548.57 539.51c0 115.98-94.02 210-210 210s-210-94.02-210-210 94.02-210 210-210 210 94.02 210 210z"/>
+      <path id="path3594" fill="none" d="m340 543.79h485.71"/>
+      <path id="path3596" fill="none" d="m825.71 543.79-140-157.14"/>
+      <path id="path3598" fill="none" d="m826.57 545.79-140 157.14"/>
+    </g>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>You'll get moved on here</dc:title>
+        <dc:date>2010-05-10T14:13:31</dc:date>
+        <dc:description>This symbol is part of a set originally created  by Emily Read. It was published in The Pavement magazine, a periodical for the homeless community in London. The symbols are an up to date version of a traditional form of communication used by the homeless. Emily has kindly given her permission for the symbols to shared on Openclipart. Original at  http://www.thepavement.org.uk/story.php?story=130</dc:description>
+        <dc:source>http://openclipart.org/detail/59599/you?l-get-moved-on-here-by-andy_gardner</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Andy_Gardner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>guide</rdf:li>
+            <rdf:li>homeless</rdf:li>
+            <rdf:li>information</rdf:li>
+            <rdf:li>shelter</rdf:li>
+            <rdf:li>symbol</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

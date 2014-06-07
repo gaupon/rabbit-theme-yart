@@ -1,6 +1,5 @@
 = yart theme
-Yet Another Rabbit Theme
-An attempt to make a simple Rabbit theme with simple progress images
+Yet Another Rabbit Theme: a simple Rabbit theme with simple progress images
 
 == For author
 
