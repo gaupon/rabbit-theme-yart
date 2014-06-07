@@ -1,6 +1,6 @@
-= TODO: THEME TITLE
-
-TODO: THEME DESCRIPTION
+= yart theme
+Yet Another Rabbit Theme
+An attempt to make a simple Rabbit theme with simple progress images
 
 == For author
 
@@ -21,4 +21,3 @@ TODO: THEME DESCRIPTION
 === Show
 
   rabbit -t rabbit-theme-yart rabbit-theme-benchmark-en.gem
-

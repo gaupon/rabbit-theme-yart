@@ -1,12 +1,12 @@
 ---
 id: yart
-tags: []
+tags:
+- yart
 version: 1.0.0
-licenses: []
+licenses:
+- CC BY 3.0
 author:
-  markup_language: 
-  name: 
-  email: 
-  rubygems_user: 
-  slideshare_user: 
-  speaker_deck_user: 
+  markup_language: rd
+  name: Enrico Rivarola
+  email: henrythebuilder@yahoo.it
+  rubygems_user: henrythebuilder
