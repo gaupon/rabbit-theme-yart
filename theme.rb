@@ -1,3 +1,23 @@
+# margin
+@margin_bottom /= 2
+
+# Lightning Talk
+# leave heare (top) to show progress when 'only title' slide
+@enable_yart_lightning_talk = true if (@enable_yart_lightning_talk.nil?)
+if (@enable_yart_lightning_talk)
+  # use lightning_talk feature to manage 'only title' slide
+  @lightning_talk_proc_name = "lightning-yart"
+  @lightning_talk_as_large_as_possible = true
+  include_theme("lightning-talk-toolkit")
+  match(Slide) do |slides|
+    slides.each do |slide|
+      if slide.lightning_talk?
+        slide.lightning_talk
+      end
+    end
+  end
+end
+
 # progress space ratio
 @image_slide_number_space_ratio ||= 1.0 / 36.0
 @image_timer_space_ratio ||= 1.0 / 36.0
@@ -21,9 +41,6 @@
 #<a href="https://openclipart.org//detail/134815/rainbow-chalk-stroke-by-jhnri4"><img src="https://openclipart.org//people/jhnri4/Rainbow_chalk_stroke.svg" /></a>
 @slide_logo_image ||= "Rainbow_chalk_stroke.svg"
 include_theme("slide-logo")
-
-# margin
-@margin_bottom /= 2
 
 # emphasis
 emphasis_color = "#0055bb"
@@ -49,16 +66,4 @@ match(Slide, Body) do |bodies|
   bodies.vertical_centering = true
 end
 
-# from Rabbit Debian theme to manage 'only title' slide
-@lightning_talk_proc_name = "lightning-yart"
-@lightning_talk_as_large_as_possible = true
-include_theme("lightning-talk-toolkit")
-match(Slide) do |slides|
-  slides.each do |slide|
-    if slide.lightning_talk?
-      slide.headline.margin_left = @margin_left
-      slide.lightning_talk
-    end
-  end
-end
 include_theme("per-slide-background-image")
