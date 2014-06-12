@@ -73,6 +73,11 @@ set_graffiti_line_width(15)
 # base theme
 include_theme("default")
 
+# icon
+# original: <a href="https://openclipart.org/detail/13667/rgb-slides-by-molumen"><img src="https://openclipart.org/people/molumen/molumen_rgb_slides.svg" /></a>
+@icon_images = ["molumen_rgb_slides.png"]
+include_theme("icon")
+
 #powered by
 @powered_by_text = "\tPowered by Rabbit #{Rabbit::VERSION}"
 include_theme("powered-by")
