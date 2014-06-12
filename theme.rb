@@ -51,6 +51,14 @@ graffiti_color = "#99cc33"
 set_graffiti_color("#{graffiti_color}cc")
 set_graffiti_line_width(15)
 
+# block quote
+# <a href="https://openclipart.org/detail/190316/edit-icon-by-minduka-190316"><img src="https://openclipart.org/people/Minduka/edit-icon.svg" /></a>
+@block_quote_open_quote_image = "edit-icon.svg"
+@block_quote_fill_color = "#{emphasis_color}15"
+@block_quote_image_frame = true
+@block_quote_image_width = canvas.width * 0.05
+@block_quote_title_font_size = screen_size(2.0 * Pango::SCALE)
+
 # pre-formatted text
 @preformatted_frame_color = emphasis_color
 @preformatted_fill_color = "#{emphasis_color}15"
