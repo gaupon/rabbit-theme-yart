@@ -51,6 +51,10 @@ graffiti_color = "#99cc33"
 set_graffiti_color("#{graffiti_color}cc")
 set_graffiti_line_width(15)
 
+# pre-formatted text
+@preformatted_frame_color = emphasis_color
+@preformatted_fill_color = "#{emphasis_color}15"
+
 # description list & enum.
 @description_term_line_color = emphasis_color
 @default_description_item1_mark_color = emphasis_color
