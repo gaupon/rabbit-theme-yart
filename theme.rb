@@ -66,4 +66,10 @@ match(Slide, Body) do |bodies|
   bodies.vertical_centering = true
 end
 
-include_theme("per-slide-background-image")
+# Title style
+match(TitleSlide, Title) do |titles|
+  titles.prop_set("foreground", emphasis_color)
+  titles.prop_set("style", "italic")
+end
+
+#include_theme("per-slide-background-image")
