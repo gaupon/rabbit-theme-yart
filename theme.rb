@@ -39,8 +39,8 @@ end
 
 # slide logo
 #<a href="https://openclipart.org//detail/134815/rainbow-chalk-stroke-by-jhnri4"><img src="https://openclipart.org//people/jhnri4/Rainbow_chalk_stroke.svg" /></a>
-@slide_logo_image ||= "Rainbow_chalk_stroke.svg"
-include_theme("slide-logo")
+#@slide_logo_image ||= "Rainbow_chalk_stroke.svg"
+#include_theme("slide-logo")
 
 # emphasis
 emphasis_color = "#0055bb"
@@ -69,6 +69,9 @@ set_graffiti_line_width(15)
 @description_term_line_color = emphasis_color
 @default_description_item1_mark_color = emphasis_color
 @default_description_item1_mark_type = "dash"
+
+#Headline
+@default_headline_line_color = emphasis_color
 
 # base theme
 include_theme("default")
