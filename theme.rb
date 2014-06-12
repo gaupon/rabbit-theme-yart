@@ -58,6 +58,8 @@ set_graffiti_line_width(15)
 @block_quote_image_frame = true
 @block_quote_image_width = canvas.width * 0.05
 @block_quote_title_font_size = screen_size(2.0 * Pango::SCALE)
+@default_block_quote_item1_mark_type = "dash"
+@default_block_quote_item1_mark_color = emphasis_color
 
 # pre-formatted text
 @preformatted_frame_color = emphasis_color
@@ -66,6 +68,7 @@ set_graffiti_line_width(15)
 # description list & enum.
 @description_term_line_color = emphasis_color
 @default_description_item1_mark_color = emphasis_color
+@default_description_item1_mark_type = "dash"
 
 # base theme
 include_theme("default")
