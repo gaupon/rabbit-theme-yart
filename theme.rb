@@ -1,5 +1,5 @@
 # margin
-@margin_bottom /= 2
+@margin_bottom /= 3
 
 # Lightning Talk
 # leave heare (top) to show progress when 'only title' slide
@@ -92,6 +92,9 @@ include_theme("icon")
 #powered by
 @powered_by_text = "\tPowered by Rabbit #{Rabbit::VERSION}"
 include_theme("powered-by")
+
+@slide_footer_info_line_color = "#{emphasis_color}32"
+include_theme("slide-footer-info")
 
 # slide content position
 match(Slide, HeadLine) do |heads|
