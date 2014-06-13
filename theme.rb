@@ -1,5 +1,8 @@
 # margin
 @margin_bottom /= 3
+@margin_top /= 2
+@margin_left /=2
+@margin_right /= 2
 
 # Lightning Talk
 # leave heare (top) to show progress when 'only title' slide
