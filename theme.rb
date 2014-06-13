@@ -70,8 +70,16 @@ set_graffiti_line_width(15)
 @default_description_item1_mark_color = emphasis_color
 @default_description_item1_mark_type = "dash"
 
-#Headline
+# Headline
 @default_headline_line_color = emphasis_color
+
+# table
+@table_frame_color = emphasis_color
+@table_fill_color = "white"
+@table_head_frame_color = emphasis_color
+@table_head_fill_color ="#{emphasis_color}24"
+@table_body_frame_color = emphasis_color
+@table_body_fill_color = "#{emphasis_color}15"
 
 # base theme
 include_theme("default")
