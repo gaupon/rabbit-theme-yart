@@ -96,7 +96,20 @@ include_theme("icon")
 @powered_by_text = "\tPowered by Rabbit #{Rabbit::VERSION}"
 include_theme("powered-by")
 
-@slide_footer_info_line_color = "#{emphasis_color}32"
+# slide footer line
+line_gradation_rgb = [0xcc,0xcc,0xcc].collect {|x| x / 255.0}
+@slide_footer_info_line_params ||= {
+    :pattern => {
+      :base => [0, 0, canvas.width, 0],
+      :type => :linear,
+      :color_stops => [
+                       [0.0, 1, 1, 1],
+                       [0.05, *line_gradation_rgb],
+                       [0.95, *line_gradation_rgb],
+                       [1.0, 1, 1, 1],
+                      ],
+    }
+}
 include_theme("slide-footer-info")
 
 # slide content position
