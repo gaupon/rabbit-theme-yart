@@ -5,7 +5,7 @@
 @margin_right /= 2
 
 # Lightning Talk
-# leave heare (top) to show progress when 'only title' slide
+# leave here (top) to show progress when 'only title' slide
 @enable_yart_lightning_talk = true if (@enable_yart_lightning_talk.nil?)
 if (@enable_yart_lightning_talk)
   # use lightning_talk feature to manage 'only title' slide
@@ -123,7 +123,16 @@ end
 # Title style
 match(TitleSlide, Title) do |titles|
   titles.prop_set("foreground", emphasis_color)
-  titles.prop_set("style", "italic")
+end
+elements_to_change = [Author, Institution, Date, Place]
+match(TitleSlide, "*") do |elements|
+  elements.each do |element|
+    if elements_to_change.find {|type| element.is_a?(type)}
+      element.horizontal_centering = false
+      element.align = :right
+      element.prop_set("size", @x_small_font_size)
+    end
+  end
 end
 
 #include_theme("per-slide-background-image")
