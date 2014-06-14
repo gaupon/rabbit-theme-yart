@@ -96,7 +96,7 @@ include_theme("icon")
 #@powered_by_text = "\tPowered by Rabbit Presentation Tool #{Rabbit::VERSION}"
 @powered_by_text = "\tPowered by Rabbit Presentation Tool"
 @powered_by_text_color = emphasis_color
-@powered_by_props ||= {
+@powered_by_props = {
   "size" => screen_size(1.5 * Pango::SCALE),
   "font_family" => @font_family,
   "style" => "italic"
