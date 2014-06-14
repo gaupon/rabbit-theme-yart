@@ -93,7 +93,14 @@ include_theme("default")
 include_theme("icon")
 
 #powered by
-@powered_by_text = "\tPowered by Rabbit #{Rabbit::VERSION}"
+#@powered_by_text = "\tPowered by Rabbit Presentation Tool #{Rabbit::VERSION}"
+@powered_by_text = "\tPowered by Rabbit Presentation Tool"
+@powered_by_text_color = emphasis_color
+@powered_by_props ||= {
+  "size" => screen_size(1.5 * Pango::SCALE),
+  "font_family" => @font_family,
+  "style" => "italic"
+}
 include_theme("powered-by")
 
 # slide footer line
