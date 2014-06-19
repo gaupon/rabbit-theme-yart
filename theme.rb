@@ -84,6 +84,9 @@ set_graffiti_line_width(15)
 @table_body_frame_color = emphasis_color
 @table_body_fill_color = "#{emphasis_color}15"
 
+#footnote
+@foot_text_block_line_color = emphasis_color
+
 # base theme
 include_theme("default")
 
