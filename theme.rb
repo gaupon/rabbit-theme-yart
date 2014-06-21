@@ -86,6 +86,7 @@ set_graffiti_line_width(15)
 
 #footnote
 @foot_text_block_line_color = emphasis_color
+@foot_text_block_line_length_ratio = 0.75
 
 # base theme
 include_theme("default")
