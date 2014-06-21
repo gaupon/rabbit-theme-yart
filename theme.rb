@@ -149,9 +149,15 @@ match(TitleSlide, "*") do |elements|
   end
 end
 
-#emphasis level 2
+# emphasis style
+# level 2
 match("**", Emphasis, Emphasis) do |texts|
   texts.prop_set("underline", "single")
+end
+# deleted text
+match("**", Emphasis, DeletedText, "**") do |texts|
+  texts.prop_set("strikethrough", "true")
+  texts.prop_set("strikethrough_color", emphasis_color)
 end
 
 #include_theme("per-slide-background-image")
