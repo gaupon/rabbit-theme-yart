@@ -79,7 +79,7 @@ set_graffiti_line_width(15)
 
 # table
 @table_frame_color = emphasis_color
-@table_fill_color = "white"
+@table_fill_color = @background
 @table_head_frame_color = emphasis_color
 @table_head_fill_color ="#{emphasis_color}24"
 @table_body_frame_color = emphasis_color
