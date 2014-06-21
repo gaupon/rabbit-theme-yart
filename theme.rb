@@ -9,6 +9,8 @@
 @enable_yart_lightning_talk = true if (@enable_yart_lightning_talk.nil?)
 if (@enable_yart_lightning_talk)
   # use lightning_talk feature to manage 'only title' slide
+  @lightning_talk_background_color = @background
+  @lightning_talk_color = @foreground
   @lightning_talk_proc_name = "lightning-yart"
   @lightning_talk_as_large_as_possible = true
   include_theme("lightning-talk-toolkit")
