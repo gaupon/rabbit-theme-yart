@@ -160,4 +160,9 @@ match("**", Emphasis, DeletedText, "**") do |texts|
   texts.prop_set("strikethrough_color", emphasis_color)
 end
 
+# Note style
+match( "**", Note) do |texts|
+  texts.prop_set("stretch",  "condensed")
+end
+
 #include_theme("per-slide-background-image")
