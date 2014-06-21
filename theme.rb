@@ -48,6 +48,7 @@ end
 # emphasis
 emphasis_color = "#0055bb"
 @default_emphasis_color = emphasis_color
+@default_emphasis_level2_color = emphasis_color
 
 # graffiti
 graffiti_color = "#99cc33"
@@ -144,6 +145,11 @@ match(TitleSlide, "*") do |elements|
       element.prop_set("size", @x_small_font_size)
     end
   end
+end
+
+#emphasis level 2
+match("**", Emphasis, Emphasis) do |texts|
+  texts.prop_set("underline", "single")
 end
 
 #include_theme("per-slide-background-image")
