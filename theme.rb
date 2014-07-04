@@ -92,7 +92,9 @@ set_graffiti_line_width(15)
 @foot_text_block_line_length_ratio = 0.75
 
 # image caption
-# leave @image_caption_color featured by image["caption-color"] tag
+# @image_caption_color configurable by image["caption-color"] tag
+# default @image_caption_color value
+@image_caption_color = emphasis_color
 @image_caption_font_size = @x_small_font_size
 
 # base theme
