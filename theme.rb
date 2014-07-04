@@ -48,12 +48,12 @@ end
 #include_theme("slide-logo")
 
 # emphasis
-emphasis_color = "#0055bb"
+emphasis_color = "#0197fd" # Accent Blue
 @default_emphasis_color = emphasis_color
 @default_emphasis_level2_color = emphasis_color
 
 # graffiti
-graffiti_color = "#99cc33"
+graffiti_color = "#98fc66" # Accent Green
 set_graffiti_color("#{graffiti_color}cc")
 set_graffiti_line_width(15)
 
