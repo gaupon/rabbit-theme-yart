@@ -66,6 +66,7 @@ set_graffiti_line_width(15)
 @block_quote_title_font_size = @xx_small_font_size
 @default_block_quote_item1_mark_type = "dash"
 @default_block_quote_item1_mark_color = emphasis_color
+@block_quote_title_color = emphasis_color
 
 # pre-formatted text
 @preformatted_frame_color = emphasis_color
