@@ -53,9 +53,9 @@ emphasis_color = "#0197fd" # Accent Blue
 @default_emphasis_level2_color = emphasis_color
 
 # graffiti
-graffiti_color = "#98fc66" # Accent Green
+graffiti_color = "#00ff00"
 set_graffiti_color("#{graffiti_color}cc")
-set_graffiti_line_width(15)
+set_graffiti_line_width(10)
 
 # block quote
 # <a href="https://openclipart.org/detail/190316/edit-icon-by-minduka-190316"><img src="https://openclipart.org/people/Minduka/edit-icon.svg" /></a>
